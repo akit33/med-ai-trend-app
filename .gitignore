@@ -1,0 +1,17 @@
+# 仮想環境フォルダ
+venv/
+
+# データファイル (容量対策とセキュリティ)
+*.csv
+all_pmids_reprocessed.csv
+pubmed_articles_details.csv
+
+# モデルアセット (容量対策と外部ストレージ管理のため)
+model/
+
+# 環境変数 (セキュリティのため必須)
+.env
+
+# 自動生成ファイル
+__pycache__/
+*.pyc
