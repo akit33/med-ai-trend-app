@@ -57,8 +57,8 @@ Python、Streamlit、FastAPI、Flask、PyTorch（LSTM）、PubMed E-utilities AP
 ---
 
 ## アーキテクチャ
-Streamlit UI → FastAPI（APIルーター）→ Flask（LSTM推論）
-PubMed API → データ取得
+- PubMed API → データ取得
+- Streamlit UI → FastAPI（APIルーター）→ Flask（LSTM推論）
 
 ---
 
