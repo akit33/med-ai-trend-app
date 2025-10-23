@@ -23,7 +23,7 @@ Python、Streamlit、FastAPI、Flask、PyTorch（LSTM）、PubMed E-utilities AP
 ---
 
 ## データ取得と前処理
-- **データソース**：NCBI E-utilities APIでPubMed文献を検索
+- **データソース**：NCBI E-utilities APIでPubMed文献を検索・取得
 - **工夫**
   - APIの取得件数制限やレート制限を回避するため、期間を半年または3ヶ月単位に分割
   - リクエスト間に遅延 (`time.sleep`) を設けレート制限違反を防止
